@@ -2,7 +2,7 @@ import clientPromise from "@/lib/mongodb"
 
 export async function POST(request) {
     const body = await request.json();
-    console.log(body);
+    // console.log(body);
     const client = await clientPromise;
     const db = client.db("fiturl");
     const collection = db.collection("urls");

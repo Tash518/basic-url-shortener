@@ -11,8 +11,8 @@ const Navbar = () => {
                 <Link href="/"><li>Contact</li></Link>
                 <Link href="/"><li>Shorten</li></Link>
                 <li className='flex gap-2'>
-                    <Link href="/generate" className='bg-slate-600 rounded-2xl p-2'><button>TRY NOW</button></Link>
-                    <Link href="/github" className='bg-slate-600 rounded-2xl p-2'><button>Github</button></Link>
+                    <Link href="/generate" className='bg-slate-600 rounded-2xl p-1'><button>TRY NOW</button></Link>
+                    <Link href="/github" className='bg-slate-600 rounded-2xl p-1'><button>Github</button></Link>
                 </li>
             </ul>
         </nav>
